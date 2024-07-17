@@ -1,7 +1,7 @@
 import { FieldValues } from "react-hook-form";
 
 export const createUser = async (data: FieldValues) => {
-  const res = await fetch(`http://localhost:4000/api/user`, {
+  const res = await fetch(`https://ph-task-1-server.vercel.app/api/user`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
